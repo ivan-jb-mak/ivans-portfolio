@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import "./ProjectCard.css";
 import { Fade } from "react-reveal";
@@ -27,15 +27,32 @@ export default function ProjectCard({ repo, theme }) {
     },
   });
 
+  const styles2 = style({
+    backgroundColor: `${theme.accentBright}`,
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
+    },
+  });
+
   const livelinkGithub = (
-    <div>
-      <a {...styles} className="button" target="_blank" href={repo.websiteUrl}>
+    <Fragment>
+      <a
+        {...styles2}
+        className="general-btn"
+        target="_blank"
+        href={repo.websiteUrl}
+      >
         Live Link
       </a>{" "}
-      <a {...styles} className="button" target="_blank" href={repo.githubUrl}>
+      <a
+        {...styles2}
+        className="general-btn"
+        target="_blank"
+        href={repo.githubUrl}
+      >
         Github
       </a>
-    </div>
+    </Fragment>
   );
 
   return (
