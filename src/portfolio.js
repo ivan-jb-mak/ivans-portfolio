@@ -42,7 +42,7 @@ const skills = {
       softwareSkills: [
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          fontAwesomeClassname: "logos-javascript",
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
@@ -85,28 +85,28 @@ const skills = {
         },
         {
           skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          fontAwesomeClassname: "vscode-icons:file-type-html",
           style: {
             color: "#E34F26",
           },
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          fontAwesomeClassname: "vscode-icons:file-type-css",
           style: {
             color: "#1572B6",
           },
         },
         {
           skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          fontAwesomeClassname: "logos-sass",
           style: {
             color: "#CC6699",
           },
         },
         {
           skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
+          fontAwesomeClassname: "logos-bootstrap",
           style: {
             color: "#7952B3",
           },
@@ -120,21 +120,21 @@ const skills = {
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
+          fontAwesomeClassname: "logos-python",
           style: {
             color: "#3776AB",
           },
         },
         {
           skillName: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
+          fontAwesomeClassname: "logos-flask",
           style: {
             color: "#000000",
           },
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "logos-java",
           style: {
             color: "#f89820",
           },
@@ -148,21 +148,21 @@ const skills = {
         },
         {
           skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          fontAwesomeClassname: "logos-postgresql",
           style: {
             color: "#4169E1",
           },
         },
         {
           skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
+          fontAwesomeClassname: "logos-c-plusplus",
           style: {
             color: "#E94E32",
           },
         },
         {
           skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          fontAwesomeClassname: "vscode-icons:file-type-npm",
           style: {
             color: "#CB3837",
           },
@@ -368,7 +368,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work & Internship",
   description:
-    "I've completed two internships in my undergraduate and I've mostly done projects on my own and I am actively looking for freelance opportunaties.",
+    "I've completed two internships in my undergraduate and have worked on many software projects on my own. ",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -377,24 +377,35 @@ const experience = {
         {
           title: "Junior Manufacturing Engineering Coop",
           company: "Dynaplas Ltd.",
-          company_url: "https://valora-infotech.business.site/",
+          company_url: "",
           logo_path: "dynaplas.jpg",
           duration: "Sep 2018 - Apr 2019",
           location: "Scarborough, ON",
           description:
-            "Automated quality inspection of automotive parts by programming a collaborative 6-axis robot arm and designed guarding layouts and fixtures using SOLIDWORKS to ensure safety and efficiency on the plant floor.",
+            "Automated quality inspection of automotive parts by programming a collaborative 6-axis robot arm, and designed guarding layouts and fixtures using SOLIDWORKS to ensure safety and efficiency on the plant floor.",
           color: "#0071C5",
         },
         {
           title: "Junior Project Analyst",
           company: "Brockport Home Systems",
-          company_url: "http://nightowls.company/",
+          company_url: "",
           logo_path: "brockport.jpg",
           duration: "May 2016 - Aug 2016",
           location: "Etobicoke, ON",
           description:
-            "Re-designed and fabricated pneumatic lifting table using Siemens NX and welding to optimize workspaceand tested small scale pneumatic and hydraulic actuators using sensors to verify functionality for future projects",
+            "Re-designed and fabricated pneumatic lifting table using Siemens NX and welding to optimize workspace, and tested small scale pneumatic and hydraulic actuators using sensors to verify functionality for future projects",
           color: "#90ee90",
+        },
+        {
+          title: "Manager",
+          company: "Chatime Willowdale",
+          company_url: "",
+          logo_path: "chatime.JPG",
+          duration: "Jan 2015 - Apr 2016",
+          location: "North York, ON",
+          description:
+            "Supervised all work and tasks done by employees to ensure quality of service and products, and trained 9 new employees on all material to follow policy procedure.",
+          color: "#7526bf",
         },
       ],
     },
@@ -599,6 +610,98 @@ const projects = {
         {
           name: "Arduino",
           iconifyClass: "logos-arduino",
+        },
+      ],
+    },
+    {
+      id: "4",
+      github: true,
+      name: "React Portfolio",
+      websiteUrl: "https://ivanjbmak.dev",
+      githubUrl: "https://github.com/ivan-jb-mak/ivans-portfolio",
+      description:
+        "A social media web application for developers to create profiles/portfolios to share online, and share posts.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "GraphQL",
+          iconifyClass: "logos-graphql",
+        },
+        {
+          name: "Styled-Components",
+          iconifyClass: "vscode-icons:file-type-styled",
+        },
+      ],
+    },
+    {
+      id: "5",
+      github: true,
+      name: "Weather App",
+      websiteUrl: "https://github.com/ivan-jb-mak/Fire-Water-Grass",
+      githubUrl: "https://github.com/ivan-jb-mak/Fire-Water-Grass",
+      description:
+        "A social media web application for developers to create profiles/portfolios to share online, and share posts.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "Netlify",
+          iconifyClass: "vscode-icons:file-type-netlify",
+        },
+      ],
+    },
+    {
+      id: "6",
+      github: true,
+      name: "Rock-Paper-Scissors Game App",
+      websiteUrl: "https://github.com/ivan-jb-mak/weatherApp",
+      githubUrl: "https://github.com/ivan-jb-mak/weatherApp",
+      description:
+        "A social media web application for developers to create profiles/portfolios to share online, and share posts.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "Netlify",
+          iconifyClass: "vscode-icons:file-type-netlify",
         },
       ],
     },
