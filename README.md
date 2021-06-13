@@ -1,3 +1,3 @@
-# [Ivan's Portfolio](https://www.google.com):link:
+# [Ivan's Portfolio](https://ivanjbmak.dev/#/home):link:
 
 
