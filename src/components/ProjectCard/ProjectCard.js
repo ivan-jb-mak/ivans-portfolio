@@ -12,7 +12,10 @@ export default function ProjectCard({ repo, theme }) {
 
   const styles = style({
     color: "rgb(88, 96, 105)",
-    backgroundColor: "rgb(255, 255, 255)",
+    backgroundColor: `${theme.accentBright}`,
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
+    },
     boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 30px -15px",
     padding: "2rem",
     cursor: "pointer",
@@ -24,13 +27,23 @@ export default function ProjectCard({ repo, theme }) {
     },
   });
 
+  const livelinkGithub = (
+    <div>
+      <a {...styles} className="button" target="_blank" href={repo.websiteUrl}>
+        Live Link
+      </a>{" "}
+      <a {...styles} className="button" target="_blank" href={repo.githubUrl}>
+        Github
+      </a>
+    </div>
+  );
+
   return (
     <div>
       <Fade bottom duration={2000} distance="40px">
         <div
           {...styles}
           key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.projectCard }}
         >
           <div className="repo-name-div">
@@ -44,6 +57,8 @@ export default function ProjectCard({ repo, theme }) {
           <div className="repo-details">
             <ProjectLanguages logos={repo.languages} />
           </div>
+          <br />
+          <div>{<div>{repo.github ? livelinkGithub : null}</div>}</div>
         </div>
       </Fade>
     </div>

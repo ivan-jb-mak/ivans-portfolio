@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "ivans-portfolio",
-  "homepage": "http://harikanani.github.io/PortfolioV2",
+  "homepage": "https://awesome-wright-bb9545.netlify.app/",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",

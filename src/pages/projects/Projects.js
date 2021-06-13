@@ -10,7 +10,6 @@ import { style } from "glamor";
 
 function Projects(props) {
   const theme = props.theme;
-
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
@@ -52,16 +51,8 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/harikanani"
-      >
-        More Projects (Github)
-      </a>
       <br />
       <br />
-      <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
 }

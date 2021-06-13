@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
+import resumepdf from "../../assests/images/resume.pdf";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -44,7 +45,7 @@ export default function Greeting(props) {
                     history.push("/contact");
                   }}
                 >
-                  Contact Me
+                  Contact & Resume
                 </button>
               </div>
             </div>
