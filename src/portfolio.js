@@ -491,7 +491,7 @@ const projects = {
       id: "1",
       github: true,
       name: "Exercise Tracking App",
-      websiteUrl: "https://github.com/ivan-jb-mak/exercise-tracker-app",
+      websiteUrl: "https://exercise-tracker-react.netlify.app/",
       githubUrl: "https://github.com/ivan-jb-mak/exercise-tracker-app",
       description:
         "An exercise tracking web application to keep track of the time, date, and info for all of your workouts.",
