@@ -651,12 +651,12 @@ const projects = {
     },
     {
       id: "5",
-      github: true,
+      github: false,
       name: "Weather App",
       websiteUrl: "https://github.com/ivan-jb-mak/Fire-Water-Grass",
       githubUrl: "https://github.com/ivan-jb-mak/Fire-Water-Grass",
       description:
-        "A social media web application for developers to create profiles/portfolios to share online, and share posts.",
+        "A weather web application to check the temperature and weather statistics in real-time. ",
       languages: [
         {
           name: "JavaScript",
@@ -679,12 +679,12 @@ const projects = {
     },
     {
       id: "6",
-      github: true,
+      github: false,
       name: "Rock-Paper-Scissors Game App",
       websiteUrl: "https://github.com/ivan-jb-mak/weatherApp",
       githubUrl: "https://github.com/ivan-jb-mak/weatherApp",
       description:
-        "A social media web application for developers to create profiles/portfolios to share online, and share posts.",
+        "A rock-paper-scissors game applicaion, but instead of rock-paper-scissors, it's fire-water-grass from Pokemon!",
       languages: [
         {
           name: "JavaScript",
