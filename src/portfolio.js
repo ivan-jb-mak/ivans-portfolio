@@ -443,7 +443,7 @@ const projects = {
       id: "0",
       github: true,
       name: "DevBook - Social Media App for Developer",
-      websiteUrl: "https://github.com/ivan-jb-mak/DevBook",
+      websiteUrl: "https://developerbook.me",
       githubUrl: "https://github.com/ivan-jb-mak/DevBook",
       description:
         "A social media web application for developers to create profiles/portfolios to share online, and share posts.",
