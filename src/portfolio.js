@@ -705,6 +705,45 @@ const projects = {
         },
       ],
     },
+    {
+      id: "7",
+      github: false,
+      name: "Twitter-Clone (In-Progress)",
+      websiteUrl: "https://github.com/ivan-jb-mak/twitter-clone",
+      githubUrl: "https://github.com/ivan-jb-mak/twitter-clone",
+      description:
+        "A twitter-clone made with Typescript, React, GraphQL, Apollo-Client and PostgreSQL.",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript-icon",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "GraphQL",
+          iconifyClass: "logos-graphql",
+        },
+        {
+          name: "PostgreSQL",
+          iconifyClass: "logos-postgresql",
+        },
+        {
+          name: "Prisma",
+          iconifyClass: "vscode-icons:file-type-light-prisma",
+        },
+        {
+          name: "Apollo-Client",
+          iconifyClass: "logos-apollostack",
+        },
+        {
+          name: "Node",
+          iconifyClass: "logos-nodejs-icon",
+        },
+      ],
+    },
   ],
 };
 
