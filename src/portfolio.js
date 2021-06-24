@@ -33,23 +33,30 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web applications",
-        "⚡ Building responsive website front end using ReactJS",
+        "⚡ Building responsive website front end using React and TypeScript",
         "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Designing backend API's in REST for SQL and noSQL databases for PostgreSQL and MongoDB",
         "⚡ Managing application and component level state with React/Redux",
         "⚡ Creating beautiful and interactive UI elements and animations with Sass and Bootstrap",
-        "⚡ Integration of third party services such as Heroku and Netlify",
+        "⚡ Integration of third party services for deployment such as Heroku and Netlify",
       ],
       softwareSkills: [
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "logos-javascript",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "logos-typescript-icon",
           style: {
-            backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
           },
         },
         {
-          skillName: "ReactJS",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos-javascript",
+          style: {
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
@@ -60,6 +67,20 @@ const skills = {
           fontAwesomeClassname: "simple-icons:redux",
           style: {
             color: "#764ABC",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#E434AA",
+          },
+        },
+        {
+          skillName: "Apollo Client",
+          fontAwesomeClassname: "simple-icons:apollographql",
+          style: {
+            color: "#311C87",
           },
         },
         {
@@ -84,10 +105,25 @@ const skills = {
           },
         },
         {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "logos-postgresql",
+          style: {
+            color: "#4169E1",
+          },
+        },
+        {
+          skillName: "Prisma",
+          fontAwesomeClassname: "logos-prisma",
+          style: {
+            color: "#424159",
+          },
+        },
+        {
           skillName: "HTML5",
           fontAwesomeClassname: "vscode-icons:file-type-html",
           style: {
             color: "#E34F26",
+            backgroundcolor: "#424159",
           },
         },
         {
@@ -144,13 +180,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:sqlite",
           style: {
             color: "#003B57",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "logos-postgresql",
-          style: {
-            color: "#4169E1",
           },
         },
         {
@@ -263,20 +292,20 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      title: "The Odin Project",
+      subtitle: "Web Development Bootcamp – Full Stack JavaScript",
+      logo_path: "odin.JPG",
+      alt_name: "TheOdinProject",
+      duration: "February 2021",
+      descriptions: [],
+      website_link: "http://www.ssgc.cteguj.in/",
+    },
+    {
       title: "Ontario Tech University",
       subtitle: "Bachelor of Engineering (Honours), Mechatronics Engineering",
       logo_path: "uoit.JPG",
       alt_name: "UOIT",
       duration: "April 2020",
-      descriptions: [],
-      website_link: "http://www.ssgc.cteguj.in/",
-    },
-    {
-      title: "The Odin Project",
-      subtitle: "Open-Source Web Development Bootcamp – Full Stack JavaScript",
-      logo_path: "odin.JPG",
-      alt_name: "TheOdinProject",
-      duration: "February 2020",
       descriptions: [],
       website_link: "http://www.ssgc.cteguj.in/",
     },
@@ -375,7 +404,7 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Junior Manufacturing Engineering Coop",
+          title: "Junior Manufacturing Engineer",
           company: "Dynaplas Ltd.",
           company_url: "",
           logo_path: "dynaplas.jpg",
@@ -416,7 +445,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is with MERN stack applications. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is with MERN stack applications. And i'm currently working on a twitter-clone using graphQL instead of REST API's. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
