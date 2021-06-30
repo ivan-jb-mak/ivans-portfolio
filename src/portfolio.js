@@ -649,7 +649,7 @@ const projects = {
       websiteUrl: "https://ivanjbmak.dev",
       githubUrl: "https://github.com/ivan-jb-mak/ivans-portfolio",
       description:
-        "A social media web application for developers to create profiles/portfolios to share online, and share posts.",
+        "A projects portfolio built to showcase the technologies that I work with for the projects I build.",
       languages: [
         {
           name: "React",
@@ -667,14 +667,6 @@ const projects = {
         {
           name: "CSS",
           iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "GraphQL",
-          iconifyClass: "logos-graphql",
-        },
-        {
-          name: "Styled-Components",
-          iconifyClass: "vscode-icons:file-type-styled",
         },
       ],
     },
