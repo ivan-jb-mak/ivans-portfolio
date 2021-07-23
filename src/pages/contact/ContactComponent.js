@@ -51,14 +51,15 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a
+              {/* Un-comment below when applying again to see resume */}
+              {/* <a
                 {...styles}
                 className="general-btn"
                 target="_blank"
                 href={resumepdf}
               >
                 See my Resume
-              </a>
+              </a> */}
             </div>
           </div>
         </Fade>

@@ -404,6 +404,17 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Software Engineer",
+          company: "Mi9 Retail",
+          company_url: "",
+          logo_path: "mi9Retail.png",
+          duration: "Aug 2021 - Present",
+          location: "Toronto, ON",
+          description:
+            "Design, develop, and maintain efficient, reliable, reusable and fast web UI using React and API's using Node. ",
+          color: "#FF0000",
+        },
+        {
           title: "Junior Manufacturing Engineer",
           company: "Dynaplas Ltd.",
           company_url: "",
